@@ -1,0 +1,132 @@
+body {
+    background-color: #0f233f;
+}
+
+.main {
+    background-color: #03142b;
+    width: 650px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    border: white 5px solid;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 0px;
+
+}
+#heading {
+    color: #4ADF86;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+
+}
+#generate {
+    color: wheat;
+    font-weight: bolder;
+    font-size: 40px;
+    padding: 0px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+#random {
+    color: #4ADF86;
+    font-weight: bolder;
+    font-size: 40px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+h3 {
+    color: #D5D4D8;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#rec {
+    border-bottom: #c2cad4 0.5px solid; 
+    width: 600px;
+    height: 10px;
+    margin-top: 30px;
+}
+#genpass {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    background-color: #4ADF86;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    font-size: larger;
+    font-weight: lighter;
+    border-radius: 10px;
+    border: none;
+}
+#plain, #complex {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    background-color: #0f233f;
+    color: rgb(202, 186, 186);
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    font-size: larger;
+    font-weight: lighter;
+    border-radius: 10px;
+    border: none;
+}
+#plainPassword, #complexPassword{
+    border: 1px grey solid;
+    padding: 0.5rem 1rem;
+}
+
+#plain {
+    margin-right: 30px;
+}
+#complex {
+    margin-left: auto;
+}
+p {
+    color: #D5D4D8;
+    text-align: center;
+    margin-top: 20px;
+}
+.plain {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.complex {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: 40px;
+} 
+
+button{
+    width: fit-content;
+}
+.passwords-column {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    gap: 5rem;
+
+}
+#copyText1,  #copyText2 {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    background-color: #01142ed5;
+    border-radius: 5px;
+    border: 1px white solid;
+    color: #c2cad4;
+    padding: 0.4rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
